@@ -6,13 +6,13 @@ public class Pessoa
 
     public Pessoa(string nome)
     {
-        Nome = nome;
+        this.Nome = nome;
     }
 
     public Pessoa(string nome, string sobrenome)
     {
-        Nome = nome;
-        Sobrenome = sobrenome;
+        this.Nome = nome;
+        this.Sobrenome = sobrenome;
     }
 
     public string Nome { get; set; }
